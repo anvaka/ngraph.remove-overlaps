@@ -43,7 +43,7 @@ var removeOverlaps = require('ngraph.remove-overlaps')
 var createLayout = require('ngraph.forcelayout')
 var layout = createLayout(graph)
 
-// Thanks to {active: true} option, whever layout islchanged,
+// Thanks to {active: true} option, whever layout is changed,
 // the overlaps will be removed automatically:
 removeOverlaps(layout, {active: true})
 
